@@ -1,9 +1,9 @@
 <?php
 // Main page sections (everything between header and footer).
 ?>
-<section class="grid items-center gap-12 md:grid-cols-2 md:gap-10">
+<section id="home" class="grid items-center gap-12 md:grid-cols-2 md:gap-10">
   <div>
-    <h1 class="text-[44px] font-extrabold leading-[1.02] tracking-tight sm:text-6xl lg:text-[74px]">
+    <h1 class="text-[36px] font-semibold leading-[1.02] tracking-tight sm:text-5xl lg:text-[72px]">
       We build digital
       <br class="hidden sm:block" />
       products that
@@ -18,7 +18,7 @@
     </p>
 
     <div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-      <a href="#" class="group inline-flex w-full items-center justify-center gap-4 rounded-full bg-ink px-7 py-4 text-sm font-extrabold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-black sm:w-auto">
+      <a href="https://wa.me/6282133440727" class="group inline-flex items-center justify-center gap-4 rounded-full bg-ink px-7 py-4 text-sm font-extrabold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-black">
         Contact Us
         <span class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition group-hover:bg-white/15" aria-hidden="true">
           <svg viewBox="0 0 20 20" class="h-4 w-4">
@@ -33,8 +33,8 @@
   </div>
 
   <div class="relative">
-    <div class="relative mx-auto max-w-[520px]">
-      <div class="absolute -left-2 -top-8 z-10 flex h-16 w-16 items-center justify-center rounded-full bg-ink shadow-soft">
+    <div class="relative mx-auto max-w-[460px] sm:max-w-[520px]">
+      <div class="absolute -top-4 start-1/2 -translate-x-1/2 z-10 flex h-16 w-16 items-center justify-center rounded-full bg-ink shadow-soft">
         <svg viewBox="0 0 20 20" class="h-7 w-7 text-lime">
           <path d="M4.5 12.5 8 9l3 2.5L15.5 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           <path d="M15.5 7V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
@@ -42,12 +42,12 @@
       </div>
 
       <div class="grid gap-6">
-        <div class="grid grid-cols-[1fr_auto] items-start gap-6">
-          <div class="aspect-[4/3] overflow-hidden rounded-3xl bg-white shadow-soft">
-            <div class="h-full w-full bg-[radial-gradient(circle_at_50%_50%,rgba(0,0,0,0.05)_0%,transparent_70%)]"></div>
+        <div class="grid grid-cols-1 sm:grid-cols-[1fr_auto] items-start gap-6">
+          <div class="relative w-full aspect-[4/3] overflow-hidden rounded-3xl">
+            <img src="/assets/img/herosection_01.png" alt="Hero Section Image" class="absolute inset-0 h-full w-full object-cover" />
           </div>
 
-          <div class="w-[220px] rounded-3xl bg-white/70 p-6 shadow-soft backdrop-blur">
+          <div class="w-full sm:w-[220px] rounded-3xl bg-white/70 p-6 shadow-soft backdrop-blur">
             <div class="text-[52px] font-extrabold leading-none tracking-tight">230+</div>
             <p class="mt-3 text-sm leading-6 text-ink/55">
               some big companies that we work with, and trust us very much
@@ -58,7 +58,7 @@
           </div>
         </div>
 
-        <div class="rounded-[34px] bg-ink p-8 shadow-soft">
+        <div class="rounded-[34px] bg-[url('/assets/img/herosection_02.png')] bg-cover bg-center p-8 shadow-soft">
           <div class="flex items-center gap-3 text-xs font-semibold text-white/70">
             <span class="h-[1px] w-10 bg-white/35"></span>
             <span>Drive More Traffic and Sales</span>
@@ -74,17 +74,15 @@
   </div>
 </section>
 
-<section class="mt-16 md:mt-24">
+<section id="about" class="mt-16 md:mt-24">
   <div class="grid gap-10 md:grid-cols-12 md:gap-12">
     <div class="md:col-span-7">
       <span class="inline-flex items-center rounded-full border border-black/10 bg-white/55 px-5 py-2 text-xs font-extrabold text-ink/80 shadow-sm backdrop-blur">
         About Us
       </span>
 
-      <h2 class="mt-6 text-[34px] font-extrabold leading-[1.08] tracking-tight sm:text-5xl lg:text-[56px]">
-        Innovating Tech Solutions for a
-        <br class="hidden sm:block" />
-        Smarter Future
+      <h2 class="mt-6 text-[32px] font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-[56px]">
+        Innovating Tech Solutions for a Smarter Future
       </h2>
     </div>
 
@@ -97,35 +95,32 @@
     </div>
   </div>
 
-  <div class="mt-10 grid items-end gap-10 md:grid-cols-12 md:gap-12">
-    <div class="md:col-span-5">
-      <div class="text-[72px] font-extrabold leading-none tracking-tight sm:text-[88px]">920+</div>
-      <div class="mt-3 text-sm font-semibold text-ink/75 sm:text-base">Projects Delivered Successfully</div>
+  <div class="mt-10 grid gap-10 md:grid-cols-12 md:gap-12">
+    <div class="md:col-span-5 bg-[url('/assets/img/about_01.png')] bg-cover bg-center rounded-[34px] p-8 shadow-soft">
+      <div class="text-[56px] font-extrabold leading-none tracking-tight sm:text-[72px] lg:text-[88px] text-white">920+</div>
+      <div class="text-sm font-semibold text-ink/75 sm:text-base text-white">Projects Delivered Successfully</div>
 
-      <a href="#" class="mt-10 inline-flex items-center gap-4 rounded-full bg-black/5 px-7 py-4 text-sm font-extrabold text-ink shadow-sm transition hover:bg-black/10">
+      <a href="#case-study" class="inline-flex items-center gap-4 rounded-full bg-black/5 py-4 pr-4 pl-0 text-sm font-extrabold text-white shadow-sm transition hover:bg-black/10">
         View Study Case
         <span class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white">
           <svg viewBox="0 0 20 20" class="h-4 w-4">
-            <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </span>
       </a>
     </div>
 
-    <div class="md:col-span-7">
-      <div class="relative overflow-hidden rounded-[38px] bg-black/15 px-10 py-20 shadow-soft sm:py-28">
-        <div class="absolute inset-0 bg-[radial-gradient(900px_300px_at_20%_20%,rgba(255,255,255,.25),transparent_55%)]"></div>
-        <div class="relative text-center">
-          <div class="text-[34px] font-extrabold tracking-[.35em] text-white/70 sm:text-[44px]">
-            HOW WE WORK
-          </div>
+    <div class="md:col-span-7 bg-[url('/assets/img/about_02.png')] bg-cover bg-center rounded-[38px] px-10 py-20 shadow-soft sm:py-28">
+      <div class="relative text-center">
+        <div class="text-[34px] font-extrabold tracking-[.35em] text-white/70 sm:text-[44px]">
+          HOW WE WORK
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="mt-16 md:mt-24">
+<section id="service" class="mt-16 md:mt-24">
   <div class="relative overflow-hidden rounded-[44px] bg-ink px-6 py-14 shadow-soft sm:px-10 sm:py-16 md:px-14 md:py-20">
     <div class="pointer-events-none absolute inset-0 opacity-[0.55]">
       <div class="absolute inset-0 bg-[radial-gradient(900px_380px_at_50%_0%,rgba(255,255,255,.12),transparent_60%)]"></div>
@@ -151,7 +146,7 @@
       </div>
 
       <div class="mt-12 grid gap-6 md:grid-cols-2">
-        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-6 sm:p-8">
           <div class="pointer-events-none absolute inset-0 opacity-70">
             <div class="absolute -left-14 -top-16 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
             <div class="absolute -right-14 -top-20 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
@@ -188,7 +183,7 @@
           </div>
         </article>
 
-        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-6 sm:p-8">
           <div class="pointer-events-none absolute inset-0 opacity-70">
             <div class="absolute -left-14 -top-16 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
             <div class="absolute -right-14 -top-20 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
@@ -226,7 +221,7 @@
           </div>
         </article>
 
-        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-6 sm:p-8">
           <div class="pointer-events-none absolute inset-0 opacity-70">
             <div class="absolute -left-14 -top-16 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
             <div class="absolute -right-14 -top-20 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
@@ -265,7 +260,7 @@
           </div>
         </article>
 
-        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+        <article class="group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-6 sm:p-8">
           <div class="pointer-events-none absolute inset-0 opacity-70">
             <div class="absolute -left-14 -top-16 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
             <div class="absolute -right-14 -top-20 h-64 w-64 rounded-full bg-white/5 blur-2xl"></div>
@@ -306,7 +301,7 @@
   </div>
 </section>
 
-<section class="mt-16 md:mt-24">
+<section id="case-study" class="mt-16 md:mt-24">
   <div class="grid gap-10 md:grid-cols-12 md:gap-12">
     <div class="md:col-span-7">
       <span class="inline-flex items-center rounded-full border border-black/10 bg-white/55 px-5 py-2 text-xs font-extrabold text-ink/80 shadow-sm backdrop-blur">
@@ -331,8 +326,8 @@
   <div class="mt-12 grid gap-10 md:grid-cols-2 md:gap-12">
     <div class="grid gap-12">
       <article>
-        <div class="aspect-[4/5] overflow-hidden rounded-[34px] bg-black/15 shadow-soft">
-          <img src="assets/img/finx.png" alt="FinX App UI" class="h-full w-full object-cover" />
+        <div class="aspect-[3/4] sm:aspect-[4/5] overflow-hidden rounded-[34px] bg-black/15 shadow-soft">
+          <img src="/assets/img/finx.png" alt="FinX App UI" class="h-full w-full object-cover" />
         </div>
 
         <h3 class="mt-8 text-2xl font-extrabold tracking-tight">FinX</h3>
@@ -353,7 +348,7 @@
 
       <article>
         <div class="aspect-[16/9] overflow-hidden rounded-[34px] bg-black/15 shadow-soft">
-          <img src="assets/img/cardhub.png" alt="CardHub Dashboard" class="h-full w-full object-cover" />
+          <img src="/assets/img/cardhub.png" alt="CardHub Dashboard" class="h-full w-full object-cover" />
         </div>
 
         <h3 class="mt-8 text-2xl font-extrabold tracking-tight">CardHub</h3>
@@ -376,7 +371,7 @@
     <div class="grid gap-12">
       <article>
         <div class="aspect-[16/9] overflow-hidden rounded-[34px] bg-black/15 shadow-soft">
-          <img src="assets/img/socialpilot.png" alt="SocialPilot AI Dashboard" class="h-full w-full object-cover" />
+          <img src="/assets/img/socialpilot.png" alt="SocialPilot AI Dashboard" class="h-full w-full object-cover" />
         </div>
 
         <h3 class="mt-8 text-2xl font-extrabold tracking-tight">SocialPilot AI</h3>
@@ -396,8 +391,8 @@
       </article>
 
       <article>
-        <div class="aspect-[4/5] overflow-hidden rounded-[34px] bg-black/15 shadow-soft">
-          <img src="assets/img/walletx.png" alt="WalletX App UI" class="h-full w-full object-cover" />
+        <div class="aspect-[3/4] sm:aspect-[4/5] overflow-hidden rounded-[34px] bg-black/15 shadow-soft">
+          <img src="/assets/img/walletx.png" alt="WalletX App UI" class="h-full w-full object-cover" />
         </div>
 
         <h3 class="mt-8 text-2xl font-extrabold tracking-tight">WalletX</h3>

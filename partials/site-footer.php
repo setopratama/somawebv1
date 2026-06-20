@@ -7,9 +7,9 @@
     </div>
 
     <div class="relative flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
-      <h2 class="text-[40px] font-extrabold leading-none tracking-tight text-white sm:text-6xl">Let’s Work With Us</h2>
+      <h2 class="text-[28px] font-extrabold leading-none tracking-tight text-white sm:text-6xl">Let’s Work With Us</h2>
       <a
-        href="#"
+        href="https://wa.me/6282133440727"
         class="inline-flex w-full items-center justify-between gap-6 rounded-full bg-white px-7 py-4 text-sm font-extrabold text-ink shadow-soft transition hover:translate-y-[-1px] md:w-[230px]"
       >
         Contact Us
@@ -111,10 +111,10 @@
     <div class="md:col-span-2 md:pt-2">
       <div class="text-sm font-extrabold text-ink/85">Navigation</div>
       <ul class="mt-5 space-y-3 text-sm font-semibold text-ink/55">
-        <li><a class="hover:text-ink" href="#">Service</a></li>
-        <li><a class="hover:text-ink" href="#">About Us</a></li>
-        <li><a class="hover:text-ink" href="#">Case Study</a></li>
-        <li><a class="hover:text-ink" href="#">Contact</a></li>
+        <li><a class="hover:text-ink" href="#service">Service</a></li>
+        <li><a class="hover:text-ink" href="#about">About Us</a></li>
+        <li><a class="hover:text-ink" href="#case-study">Case Study</a></li>
+        <li><a class="hover:text-ink" href="https://wa.me/6282133440727">Contact</a></li>
       </ul>
     </div>
 
@@ -139,7 +139,7 @@
               />
             </svg>
           </span>
-          <span class="pt-1">(406) 555-0120</span>
+          <span class="pt-1">+62 82133440727</span>
         </li>
         <li class="flex gap-3">
           <span class="mt-[2px] inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/60 ring-1 ring-black/10">
@@ -169,7 +169,7 @@
               <circle cx="10" cy="8" r="1.6" fill="currentColor" />
             </svg>
           </span>
-          <span class="pt-1">2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
+          <span class="pt-1 break-words">Jl. Raya Soman, Sanggrahan, Purwomartani, Kec. Kalasan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571</span>
         </li>
       </ul>
     </div>

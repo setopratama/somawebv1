@@ -8,7 +8,7 @@
     <div class="relative min-h-screen overflow-hidden grain noise">
       <?php require __DIR__ . "/partials/site-header.php"; ?>
 
-      <main class="mx-auto max-w-6xl px-6 pb-14 pt-10 md:pb-24 md:pt-14">
+      <main class="mx-auto max-w-6xl px-6 sm:px-10 lg:px-16 pb-14 pt-10 md:pb-24 md:pt-14">
         <?php
         // Keep page sections inline for now; later we can split each section into partials as it grows.
         ?>
@@ -21,6 +21,16 @@
         <?php require __DIR__ . "/partials/site-footer.php"; ?>
       </main>
     </div>
+    <script>
+      const menuBtn = document.getElementById('menu-btn');
+      const menuClose = document.getElementById('menu-close');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+
+      menuBtn.addEventListener('click', () => mobileMenu.classList.remove('hidden'));
+      menuClose.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+      mobileLinks.forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+    </script>
   </body>
 </html>
 

@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-  href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+  href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
   rel="stylesheet"
 />
 
@@ -17,7 +17,7 @@
   tailwind.config = {
     theme: {
       extend: {
-        fontFamily: { sans: ["Manrope", "ui-sans-serif", "system-ui"] },
+        fontFamily: { sans: ["Plus Jakarta Sans", "ui-sans-serif", "system-ui"] },
         colors: {
           ink: "#0B0D12",
           paper: "#F6F6F6",
